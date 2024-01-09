@@ -1,0 +1,79 @@
+body{
+    background-color: #0399F8;
+    width:fit-content;
+}
+
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+ }
+
+ul{
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  display :flex;
+}
+
+.topnav a{
+  float:inline-start;
+  color:#0399F8;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: black;
+  width: 423px;
+  font-family: 'Horizon';
+ }
+   h1{
+    font-family: "Horizon";
+    color: #000000;
+    text-align: center;
+   }
+
+   .container {
+    display: grid;
+    grid-template-columns: 1fr 0fr; 
+   } 
+    /* adjusting the space between the two embed videos*/
+  
+  iframe {
+    width: 560px;
+    height: 315px;
+  }
+
+  a{
+    transition: transform 0.5s,color 0.6s;
+}
+
+a:hover{
+    transform: translate(-10px);
+    color: #0399F8;
+
+}
+   /* adjusting the size of the embed video*/
+  
+ 
+
+@media only screen and (max-width: 480px) {
+  .topnav a{
+    font-size: 17px;
+    background-color: black;
+    width: 132px;
+    font-family: 'Horizon';
+   }
+
+   iframe{
+      width: 200px;
+      height: 178px;
+   }
+
+   h1{
+      font-size: 15px;
+   }
+
+
+}
+
+
