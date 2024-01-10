@@ -88,12 +88,19 @@ a:hover{
  @media only screen and (max-width: 480px) {
     .topnav a{
       font-size: 17px;
-      width: 600px;
+      width: 189px;
       font-family: 'Horizon';
     
   
   
   }
+
+  h1{
+
+font-weight: 700;
+font-size: 45px;
+align-items: center;
+}
 
   .special{
     
@@ -103,7 +110,7 @@ a:hover{
     text-align: center;
     align-items: center;
     font-weight: 6;
-    font-size: 17px;
+    font-size: 7px;
     line-height: 26px;
     
 
@@ -113,7 +120,7 @@ a:hover{
 }
 
   .container{
-    width: 100%;
+    width: 101%;
     height: 1200px;
     background-size: cover;
     background-image:url(IMAGES/storypart.gif);
